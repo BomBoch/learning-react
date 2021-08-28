@@ -24,6 +24,7 @@ function Users() {
 function App() {
   return (
     <div className="App">
+      <h1>Learning React🚀</h1>
       <Grid
         container
         direction="column"
@@ -40,9 +41,6 @@ function App() {
                       Home
                     </Button>
                   </Link>
-                  {/* <Box color="text.primary" clone>
-                  Helloo
-                </Box> */}
                 </li>
                 <li>
                   <Link to="/state">
